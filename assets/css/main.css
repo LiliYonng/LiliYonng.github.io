@@ -1999,16 +1999,15 @@ input, select, textarea {
 			border-top: solid 1px rgba(255, 255, 255, 0.15);
 			position: relative;
 		}
+		.features p{
+			margin: 1em;
+		}
+		.features h3{
+			margin-top:1em;
+		}
 		.features img{
-			background-position: left top;
-			background-size: cover;
-			border-radius: 0;
-			float: left;
-			width: 10em;
-			height: 10em;
-			margin-right: 1em;
-			border-radius: 50%;
-
+			width: 60em;
+			margin-top: 1em;
 		}
 		
 
@@ -3021,7 +3020,7 @@ input, select, textarea {
 				display: block;
 				width: 1000px;
 			}
-			.spotlights a{
+			.spotlights .external{
 				outline: none;
 				display:block;
 				width:100px;
@@ -3207,7 +3206,11 @@ input, select, textarea {
 			max-width: 100%;
 			width: 75em;
 		}
-
+		.displayContent img{
+			width:55em;
+			display: block;
+			margin: 2em auto;
+		}
 			@media screen and (max-width: 1680px) {
 
 				.wrapper > .inner {
