@@ -1,0 +1,11 @@
+.displayGltf img{
+    width: 50%;
+    margin: .625rem .625rem;
+}
+.displayGltf{
+    display:flex;
+
+}
+.content a{
+    color:rgb(183, 0, 0);
+}

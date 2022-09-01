@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/myStyle.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -20,8 +21,9 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">vue3通用后台管理系统</a></li>
-							<li><a href="#two">养宠app交互设计</a></li>
+							<li><a href="#one">3d陶瓷展示</a></li>							
+							<li><a href="#two">vue3通用后台管理系统</a></li>
+							<li><a href="#three">养宠app交互设计</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -30,64 +32,84 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
+				
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 
 							<div class="inner">
 								<h1>梁思翊</h1>
-								<p>相关项目展示：vue3后台管理系统,养宠app交互设计...</p>
+								<p>相关项目展示：vue2 3d陶瓷展示，vue3后台管理系统，养宠app交互设计...</p>
 								<!-- <ul class="actions">
 									<li>更多相关信息:<a target ="_blank" href="http://47.113.195.79:9898/" class="button scrolly">我的博客</a></li>
 								</ul> -->
 							</div>
 
 					</section>
-
 				<!-- One -->
 					<section id="one" class="wrapper style2 spotlights">
 						<section>
 							<div class ='content'>
+								<h2> 3d陶瓷展示</h2>
+								<a target ="_blank" href="http://175.178.232.232:9090/" class="external" rel=" noopener">在线链接</a>
+								<div class = "inner">
+									<p><strong>项目背景：</strong>
+										 以中国古代陶瓷的发展和风格变化为主题设计。用户在首页可以选择不同朝代的陶瓷，项目将以3D形式展示该时期的系列典型陶瓷，同时用户可以和陶瓷进行一定的交互（缩放旋转），点击按钮切换陶瓷的花纹颜色以及陶瓷的模型。也可以选择上方按钮进行文字介绍和语音介绍。
+									</p>
+									<strong>项目亮点</strong><br/>	
+									1. vue-cli vue-router 工程化项目搭建 &emsp; &emsp;
+									2. vant框架 移动端组件风格<br/>
+									3. threejs 模型展示和交互（缩放旋转） &emsp; &emsp;
+									5. vuex和Cookie存储数据，减少请求发送<br/>
+									6. aixos封装请求，mockjs拦截实现前后端分离<br/>
+								</div>
+								<div class="displayGltf">
+									<img src="images/3d1.gif"/>
+									<img src="images/3d2.gif"/>
+									<img src="images/3d3.gif"/>
+								</div>
+								
+						</div>
+					</section>
+				<!-- One -->
+					<section id="two" class="wrapper style3 spotlights">
+							<div class ='content'>
 								<h2> 通用后台管理系统</h2>
-								<a target ="_blank" href="http://175.178.232.232:9000/" class="external" rel=" noopener">在线展示</a>
+								<a target ="_blank" href="http://175.178.232.232:9000/" class="external" rel=" noopener">在线链接</a>
 								<p>账号：123 密码：123</p>
+								<div class = "inner">
+									<strong>项目亮点：</strong><br/>
+									1. vue3.0 + es6 +less 最新技术栈 &emsp;&emsp;
+									2.vue-cli +vue router工程化搭建<br/>
+									3.ElementPlus组件库搭建数据 + Echarts图表化数据&emsp;&emsp;
+									4.登录权限，动态添加路由，菜单，防止非法跳转<br/>
+									5.vuex +jsCookie 缓存接口数据，减少请求发送，优化性能&emsp;
+									6.二次封装axios + mockjs拦截请求，模拟接口返回数据，前后端分离<br/>
+									7.异步加载数据，实时修改，刷新数据
+								</div>
+								
+
 								<img class="displayImg" src="images/vue.png" alt="" data-position="center center" />
-								<div class = "inner">基于vue3.0+es6和vue-cli搭建的通用后台管理系统。集常见的后台管理系统的功能和页面为一体。使用less+ ElementPlus+Echarts组件库实现了页面架构，以图表等多种形式展示内容页数据。包含三个主要页面，登录页，主页和数据管理页。基于es6语法标准的javascript和vue-router实现页面交互和跳转。使用vuex+JsCookie 缓存菜单等接口数据，优化性能。使用二次封装axios和 mockjs发送和拦截请求，模拟接口返回后端数据，实现前后端分离开发。</div>
+								<br/>
+								<img class="displayImg" src="images/vue2.png" alt="" data-position="center center" />
 						</div>
 					</section>
 				<!--two-->
-				<section id="two" class="wrapper style3 fade-up">
-					<div class="inner">
+				<section id="three" class="wrapper style1 spotlights" >
+					<!-- fade-up -->
+					<div class="content">
 						<h2>养宠app交互设计</h2>
 						<p>养宠app，是立足于市场上用户对宠物知识和情绪交流的需求，结合虚拟宠物技术，
 							推出的一款集个性化提醒，知识分享，社区交流为一体的养宠平台。它的特点是结合了虚拟宠物的交互性和趣味性，
 							并且根据宠物成长周期个性化定制知识推送，弥补了市场上大多数养宠app的知识推送不精准的缺点。
 						</p>
+						<h3>团队贡献</h3>
+						<p>	进行用户调研：回收 100 多份问卷调查，使用交叉分析和用户场景设计方法完成痛点分析，生成产品需求池，包含约 20 份需求分析。整合完成 7 大功能模块的架构。</p>
 						<div class ='displayContent'>
 						<h3>产品模型图</h3>
 						<a href="images/moxing.png"><img src="images/moxing.png" alt=""></a>
 						<a href="images/moxing2.png"><img src="images/moxing2.png" alt=""></a>
 						</div>
-						<h3>团队贡献</h3>
-						<p>	进行用户调研：回收 100 多份问卷调查，使用交叉分析和用户场景设计方法完成痛点分析，生成产品需求池，包含约 20 份需求分析。整合完成 7 大功能模块的架构。</p>
 
-						<div class="features">
-							<div>
-								<h3>需求分析</h3>
-								<p>通过对问卷的交叉分析，确立目标用户，输出用户画像后，根据用户的具体特征和需求，进行用户需求四要素的分析，
-									细分需求模块，输出系列的需求列表。根据需求的重要程度，结合现阶段开发团队的技术和资金进行合理的优先级评估</p>
-								<a href="images/xuqiu.png"><img src="images/xuqiu1.png"></a>
-								<a href="images/xuqiu2.png"><img src="images/xuqiu2.png"></a>								
-								
-							</div>
-							<div>
-								
-								<h3>功能架构</h3>
-								<p>在明确用户需求，产品功能和内容的基础上，通过对任务场景的分析和卡片分类讨论，
-									把独立的，分散的内容组织成一个逻辑，结构清晰的架构。</p>
-								<a href="images/features.png"><img src="images/features.png"></a>
-								
-							</div>
-							</div>
 					</div>
 				</section>
 	</div>
