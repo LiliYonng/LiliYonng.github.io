@@ -40,6 +40,10 @@
     }
 }
 @media screen and (max-width: 830px) {
+    .overlay img{
+        max-height: 400px;
+        margin-top:8em ;
+    }
     .displayGltf {
         display: block;
     }
@@ -50,6 +54,9 @@
 }
 
 @media screen and (max-width: 528px) {
+    .image{
+        max-width:500px;
+    }
     .displayGltf {
         display: block;
     }
@@ -58,5 +65,12 @@
         width: 80%;
         height: 80vh;
         /* margin: .625rem .625rem; */
+    }
+}
+@media screen and (max-width: 375px) {
+
+    .image{
+        max-width:100%;
+        max-height: 100%;
     }
 }

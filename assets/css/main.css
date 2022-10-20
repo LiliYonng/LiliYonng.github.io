@@ -3110,12 +3110,12 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
-			.spotlights > section>.content> .image {
-				height: 55vh;
+			/* .spotlights > section>.content> .image {
+				height: 50vh;
 				width:100%;
 				min-height: 15em;
 				
-			}
+			} */
 
 			.spotlights > section > .content {
 				padding: 3em 2em 1em 2em ;
